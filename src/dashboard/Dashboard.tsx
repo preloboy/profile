@@ -29,7 +29,7 @@ export default function Dashboard() {
     <ThemeProvider theme={showCustomTheme ? dashboardTheme : defaultTheme}>
       <CssBaseline />
       <Box sx={{ display: 'flex' }}>
-        {/* <SideMenu /> */}
+        <SideMenu />
         <Navbar mode={mode} toggleColorMode={toggleColorMode} />
         {/* Main content */}
         <Box
